@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eBook Store</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="brand"><a href="#">eBook Store</a></div>
+  <button class="nav-toggle" aria-label="toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#preview">eBooks</a></li>
+    <li><a href="#buy">Buy</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="hero" class="hero section">
+  <div class="hero-content fade-in">
+    <h1>Unlimited eBooks, Anytime, Anywhere</h1>
+    <p>Your digital library at your fingertips. Discover your next read today.</p>
+    <a href="#preview" class="btn">Browse eBooks</a>
+  </div>
+</section>
+
+<section id="preview" class="section preview">
+  <h2>Featured eBooks</h2>
+  <div class="book-grid">
+    <div class="book-card fade-in">
+      <img src="https://via.placeholder.com/200x300/222/fff?text=Book+Cover" alt="Cover of Book Title One">
+      <h3>Book Title One</h3>
+      <p>An exciting adventure in a land of mystery and magic.</p>
+    </div>
+    <div class="book-card fade-in">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg" alt="Cover of Book Title Two">
+      <h3>Book Title Two</h3>
+      <p>A thrilling mystery that will keep you on the edge of your seat.</p>
+    </div>
+    <div class="book-card fade-in">
+      <img src="https://via.placeholder.com/200x300/222/fff?text=Book+Cover" alt="Cover of Book Title Three">
+      <h3>Book Title Three</h3>
+      <p>An inspiring story of courage, friendship, and triumph.</p>
+    </div>
+    <div class="book-card fade-in">
+      <img src="https://via.placeholder.com/200x300/222/fff?text=Book+Cover" alt="Cover of Book Title Four">
+      <h3>Book Title Four</h3>
+      <p>A deep dive into technology and the future of society.</p>
+    </div>
+  </div>
+</section>
+
+<section id="buy" class="section buy">
+  <h2>Choose Your Plan</h2>
+  <div class="pricing-grid">
+    <div class="plan fade-in">
+      <h3>Monthly</h3>
+      <p>$9.99 / month</p>
+      <a href="#" class="btn">Subscribe</a>
+    </div>
+    <div class="plan fade-in">
+      <h3>Yearly</h3>
+      <p>$99.99 / year</p>
+      <a href="#" class="btn">Subscribe</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact fade-in">
+  <h2>Contact Us</h2>
+  <form>
+    <div class="form-group fade-in">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group fade-in">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </div>
+    <div class="form-group fade-in">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+    </div>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 eBook Store. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
